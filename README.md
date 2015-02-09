@@ -20,6 +20,7 @@ Options
 - `tableName` - the table in DynamoDB you wish to use. Needs to be within the specified region.
 - `hashAttribute` - the attribute specified as the Hash key in the table. Defaults to `'segment'`
 - `rangeAttribute` - the attribute specified as the Range key in the table. Defaults to `'id'`
+- `consistentRead` - ask for strongly consistent reads during get calls. Defaults to `false`
 
 Notes
 ---
